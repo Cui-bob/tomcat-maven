@@ -1,0 +1,2 @@
+git behind nginx: https://gist.github.com/sameersbn/becd1c976c3dc4866ef8
+nginx with SSL : https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx

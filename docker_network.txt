@@ -1,0 +1,11 @@
+Docker-Docker Communication:
+	create user-defined newwork in bridge mode
+		# docker network create -d bridge --subnet 172.25.0.0/16 isolated_nw
+	specify --network and --ip when starting docker
+		# docker run --network=isolated_nw --ip=172.25.3.3 -itd --name=container3 busybox
+	Or connect existing docker to the network
+		# docker network connect isolated_nw container2
+	reach each other by container name
+	
+	
+https://docs.docker.com/v17.09/engine/userguide/networking/work-with-networks/#basic-container-networking-example
