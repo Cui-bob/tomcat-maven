@@ -8,3 +8,8 @@ certonly --webroot `#Command to run`\
 --email youremail@domain.com --agree-tos --no-eff-email \
 --webroot-path=/data/letsencrypt \
 -d ohhaithere.com -d www.ohhaithere.com
+
+
+
+notice: in certbot docker and nginx docker, ./letsencrypt-site is mapped to different position.
+		that is why the configurations of nginx config and certbox webroot are differen.
